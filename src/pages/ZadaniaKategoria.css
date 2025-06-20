@@ -1,0 +1,30 @@
+.zadanie-wrapper {
+  margin-bottom: 10px;
+}
+
+.panel-animacja {
+  animation: expand 0.3s ease-in-out;
+  padding: 10px 16px;
+  background-color: #f4f4f4;
+  border-left: 3px solid #3880ff;
+  border-radius: 0 0 8px 8px;
+}
+
+.panel-info {
+  margin: 8px 0;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+@keyframes expand {
+  from {
+    opacity: 0;
+    transform: scaleY(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
